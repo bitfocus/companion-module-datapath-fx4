@@ -91,8 +91,7 @@ instance.prototype.actions = function(system) {
 					choices: [
 						{ id: '0', label: 'Input 1'},
 						{ id: '1', label: 'Input 2'},
-						{ id: '2', label: 'Input 3'},
-						{ id: '3', label: 'Input 4'},
+						{ id: '2', label: 'Input 3'}
 					]
 				}
 			]
