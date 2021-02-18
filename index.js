@@ -172,7 +172,8 @@ instance.prototype.doRest = function(method, cmd, body) {
 			}
 		}
 
-		var headers = { };
+		let headers = {};
+		let extra_args = {};
 
 		switch(method) {
 			case 'POST':
